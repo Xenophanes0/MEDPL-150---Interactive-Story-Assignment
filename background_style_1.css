@@ -15,4 +15,6 @@ h1 {
 p {
   color: white;
   text-align: center;
+  border-style: solid;
+  border-color: white;
 }
