@@ -18,7 +18,9 @@ dialog {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;*/
-  
+
+  text-align: center;
+  width: 1500;
   border: 5px solid green;
   padding: 25px;
   margin: 15px;
