@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+dialog {
+  background-color: white;
+  color: black;
+  border-style: grey;
+  border-color: black;
+
+  /*
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;*/
+  
+  border: 5px solid green;
+  padding: 25px;
+  margin: 15px;
+}
