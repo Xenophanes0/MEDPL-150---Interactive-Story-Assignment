@@ -4,15 +4,39 @@
     <!--What will be written on the tab of the window page--->
     <title>MEDPL 150 Interactive Story - Dean C.</title>
       <!--Linking the associated css file to affect the styling of the page.--->
-      <link rel="stylesheet" href="background_style_1.css">
+      <style>
+        body{
+            background-image: url("forest_location_one.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        p{
+          color: black;
+          border: 10px solid gray;
+          background: white;
+          padding: 25px;
+          margin: 15px;
+          width: 1550px;
+          font-size: 25px;
+
+          text-align: center;
+
+          position: absolute;
+          top: 70%;
+          left: 60%;
+          transform: translate(-70%, -40%);
+        }
+      </style>
 
     <!-- Scene of player walking in a direction, when they smell something. They have a choice to follow the smell or not. Not following continous the proper story, following the smell leads to path separated from the story leading to Bad End 1, but the player still has a chance to save themselves. --->
     <body>
       <!-- Correct Choice--->
-      <a href="Chapter_1_Scene_3.html"><p>Story proper</p></a>
+      <a href="Chapter_1_Scene_3.html"><p>Ignore the smell and continue walking?</p></a>
 
       <!-- Leading to Bad End 1 - Player dies to Host--->
-      <a href="Divergence_1.html"><p>Bad end</p></a>
+      <a href="Divergence_1.html"><p>Follow the smell.</p></a>
     </body>
   </head>
 </html>
