@@ -4,15 +4,46 @@
     <!--What will be written on the tab of the window page--->
     <title>MEDPL 150 Interactive Story - Dean C.</title>
       <!--Linking the associated css file to affect the styling of the page.--->
-      <link rel="stylesheet" href="background_style_1.css">
+      <style>
+        body{
+            background-image: url("home_in_forest.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        p{
+          color: black;
+          border: 10px solid gray;
+          background: white;
+          padding: 25px;
+          margin: 15px;
+          width: 1550px;
+          font-size: 25px;
+
+          text-align: center;
+
+          position: absolute;
+          top: 70%;
+          left: 60%;
+          transform: translate(-70%, -40%);
+        }
+      </style>
 
     <!-- Scene of player keep on running, looking back to see the mimic after them. To the left, they see a 2-story house. Player has a choice to choose to run towards the house or not.  --->
     <body>
-      <!-- Correct Choice - Player runs to the house--->
-      <a href="Chapter_2_Scene_3.html"><p>Story proper</p></a>
+      <p>
+        *Crackle, crackle, CRUNCH, CRUNCH*
+        <br>
+        You kept on running with heavier footsteps following behind you, slowly getting louder and louder. That is when you see a vacant house to your left. Do you choose to hide in the home or keep running?
+        <br>
+        <br>
+        <!-- Correct Choice - Player runs to the house--->
+        <a href="Chapter_2_Scene_3.html">Hide in home?</a> or 
 
-      <!--Player chooses to keep running, but the Mimic catches up to player then kills them.--->
-      <a href="Bad_End_3.html"><p>Bad end</p></a>
+        <!--Player chooses to keep running, but the Mimic catches up to player then kills them.--->
+        <a href="Bad_End_3.html">Keep running.</a>
+      </p>
     </body>
   </head>
 </html>
