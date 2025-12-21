@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--What will be written on the tab of the window page--->
+    <title>MEDPL 150 Interactive Story - Dean C.</title>
+      <!--Linking the associated css file to affect the styling of the page.--->
+      <style>
+        body{
+            background-image: url("forest_location_one.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        p{
+          color: black;
+          border: 10px solid gray;
+          background: white;
+          padding: 25px;
+          margin: 15px;
+          width: 1550px;
+          font-size: 25px;
+
+          text-align: center;
+
+          position: absolute;
+          top: 70%;
+          left: 60%;
+          transform: translate(-70%, -40%);
+        }
+      </style>
+
+    <!-- Scene of player walking in a direction, when they smell something. They have a choice to follow the smell or not. Not following continous the proper story, following the smell leads to path separated from the story leading to Bad End 1, but the player still has a chance to save themselves. --->
+    <body>
+      <p>
+        You decided to follow the smell, as the aroma grows stronger, you can't help but feel as if your limbs are growing heavier. Any thought is quickly being invaded by the strong scent, propelling you to continue inhaling the smell.
+        <br>
+        <br>
+        <!-- Correct Choice - Get put back on the proper path--->
+        <a href="detour_scene_1.html">Get away?</a> or
+        
+        <!-- Leading to Bad End 1 - Player dies to Host--->
+        <a href="bad_end_1.html">Continue following the smell.</a>
+      </p>
+    </body>
+  </head>
+</html>
