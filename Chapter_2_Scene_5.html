@@ -4,15 +4,43 @@
     <!--What will be written on the tab of the window page--->
     <title>MEDPL 150 Interactive Story - Dean C.</title>
       <!--Linking the associated css file to affect the styling of the page.--->
-      <link rel="stylesheet" href="background_style_1.css">
+      <style>
+        body{
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        p{
+          color: black;
+          border: 10px solid gray;
+          background: white;
+          padding: 25px;
+          margin: 15px;
+          width: 1550px;
+          font-size: 25px;
+
+          text-align: center;
+
+          position: absolute;
+          top: 70%;
+          left: 60%;
+          transform: translate(-70%, -40%);
+        }
+      </style>
 
     <!-- Scene of player hearing loud rummaging in the house, only for it to get real quiet for a while. Player has a choice to leave and check if the coast is clear, or stay hidden. --->
     <body>
-      <!-- Correct Choice - Player stays in the cupboard--->
-      <a href="Chapter_2_Scene_6.html"><p>Story proper</p></a>
+      <p>
+        
+        It's grown surprisingly quiet now. Not even light footsteps could be heard either.
+        <!-- Correct Choice - Player stays in the cupboard--->
+        <a href="Chapter_2_Scene_6.html">Stay in the cupboard</a> or
 
-      <!-- Bad End - Player looks around and sees the mimic staring back at them from besides the cupboard.--->
-      <a href="Bad_End_4.html"><p>Bad End 4</p></a>
+        <!-- Bad End - Player looks around and sees the mimic staring back at them from besides the cupboard.--->
+        <a href="Bad_End_4.html">Leave and check.</a>
+      </p>
     </body>
   </head>
 </html>
